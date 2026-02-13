@@ -1,0 +1,53 @@
+
+If you make use of this of the examples in this repo, please cite:
+
+```bibtex
+@article{2025ascl.soft02026H,
+       author = {{de Ruiter}, Iris and {Dobie}, Dougal and {Murphy}, Tara and others},
+        title = "{The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey – Data Release 1}",
+ howpublished = {PASA},
+         year = 2026,
+        month = {},
+          eid = {},
+       adsurl = {},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+---
+
+
+### Notes/updates
+
+
+---
+
+### What is this?
+
+This repository contains a Jupyter notebook that shows how use the high-level data products from VAST Extragalactic DR1. These data products are hosted on CSIRO's Data Access Portal (DAP) [DAP]().
+The python scripts in `DAP_tools/` use the [DAP API](https://research.csiro.au/dap/developer-tools/) to pull the light curve data and cutouts from the DAP. These scripts output download links to the various products that are called in the Jupyter notebook when necessary.
+
+`VAST_Extragalactic_DR1.ipynb` should be accessible with a modest amount of Python experience. Please raise an issue if this notebook does not work for you, or if anything in the notebook is unclear.
+
+
+### Getting started
+Navigate to the folder where you want to initialize your VAST working directory and run 
+
+   ```bash
+   git clone link
+   ```
+Alternatively, click on the green code button in this repo, and download its contents as zip file.
+
+### Setting up the python environment to run the example notebook
+Before running the example notebook you should use the environment.yaml file to setup the correct python environment using conda.
+
+Running: 
+
+```bash
+   conda env create -f environment.yml
+   ```
+will create a new conda environment named: `vast_env`
+
+Activate it using
+`conda activate vast_env`
+
+This environment contains the basic python and astronomy packages, as well as [vaex](https://vaex.readthedocs.io/en/latest/), which we need to read in the large light curve database tables efficiently.
