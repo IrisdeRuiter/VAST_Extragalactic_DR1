@@ -3,7 +3,7 @@
 If you make use of this of the examples in this repo, please cite:
 
 ```bibtex
-@article{2025ascl.soft02026H,
+@article{2026,
        author = {{de Ruiter}, Iris and {Dobie}, Dougal and {Murphy}, Tara and others},
         title = "{The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey – Data Release 1}",
  howpublished = {PASA},
@@ -44,11 +44,13 @@ Before running the example notebook you should use the environment.yaml file to 
 Running: 
 
 ```bash
-   conda env create -f environment.yml
-   ```
+conda env create -f environment.yml
+```
 will create a new conda environment named: `vast_env`
 
 Activate it using
-`conda activate vast_env`
+```bash
+conda activate vast_env
+```
 
 This environment contains the basic python and astronomy packages, as well as [vaex](https://vaex.readthedocs.io/en/latest/), which we need to read in the large light curve database tables efficiently.
