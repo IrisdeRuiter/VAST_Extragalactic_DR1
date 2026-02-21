@@ -1,0 +1,27 @@
+name: vast_env
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+
+  # Core scientific stack
+  - numpy>=1.26
+  - scipy>=1.10
+  - pandas>=2.0
+  - matplotlib>=3.7,<3.10 
+  - astropy>=5.0,<7.0
+
+  # Interactive / notebooks
+  - jupyterlab
+  - ipykernel
+  - notebook
+
+  # Vaex (pin to avoid solver explosion)
+  - vaex==4.16
+
+  # Compatibility pin
+  - pydantic<2
+
+  # HTTP requests library (pinned) 
+  - requests>=2.31

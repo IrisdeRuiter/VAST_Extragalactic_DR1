@@ -44,11 +44,15 @@ Before running the example notebook you should use the environment.yaml file to 
 Running: 
 
 ```bash
-conda env create -f environment.yml
+conda env create -f vast_environment.yml --solver=libmamba
 ```
 will create a new conda environment named: `vast_env`
 
-Activate it using
+The libmamba solver will significantly speed up the install. This solver is the default solver for Conda versions 23.10+.
+If you work with an older conda install, consider upgrading, and otherwise try installing without the solver specification.
+
+
+Activate the environment using
 ```bash
 conda activate vast_env
 ```
