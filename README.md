@@ -27,7 +27,7 @@ If you make use of this of the examples in this repo, please cite:
 This repository contains a Jupyter notebook that shows how use the high-level data products from [VAST Extragalactic DR1: light curve database and cutouts](https://doi.org/10.25919/nh9d-t846), hosted on CSIRO's Data Access Portal (DAP).
 The python scripts in `DAP_tools/` use the [DAP API](https://research.csiro.au/dap/developer-tools/) to pull the light curve data and cutouts from the DAP. The Jupyter notebook reads these files and visualises light curves and cutouts. Note that running this notebook will result in downloading the lightcurve products (~500 MB). 
 
-`VAST_Extragalactic_DR1.ipynb` should be accessible with a modest amount of Python experience. Please raise an issue if this notebook does not work for you, or if anything in the notebook is unclear.
+User should only work in `VAST_Extragalactic_DR1.ipynb`, which should be accessible with a modest amount of Python experience. Please raise an issue if this notebook does not work for you, or if anything in the notebook is unclear.
 
 
 ### Getting started
