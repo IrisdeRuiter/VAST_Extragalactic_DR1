@@ -38,8 +38,8 @@ Navigate to the folder where you want to initialize your VAST working directory 
    ```
 Alternatively, click on the green code button in this repo, and download its contents as zip file.
 
-### Setting up the python environment to run the example notebook
-Before running the example notebook you should use the environment.yaml file to setup the correct python environment using conda.
+### Setting up the python environment to run the Jupyter notebook
+Before running the notebook you should use the vast_environment.yaml file to setup the correct python environment using conda.
 
 Running: 
 
@@ -57,4 +57,4 @@ Activate the environment using
 conda activate vast_env
 ```
 
-This environment contains the basic python and astronomy packages, as well as [vaex](https://vaex.readthedocs.io/en/latest/), which we need to read in the large light curve database tables efficiently.
+This environment contains basic python and astronomy packages, as well as [vaex](https://vaex.readthedocs.io/en/latest/), which we need to read in the large light curve database tables efficiently.
