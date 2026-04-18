@@ -3,15 +3,13 @@
 If you make use of this of the examples in this repo, please cite:
 
 ```bibtex
-@article{2026,
-       author = {{de Ruiter}, Iris and {Dobie}, Dougal and {Murphy}, Tara and others},
-        title = "{The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey – Data Release 1}",
- howpublished = {PASA},
-         year = 2026,
-        month = {},
-          eid = {},
-       adsurl = {},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{de2026askap,
+  title={The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey--Data Release 1},
+  author={de Ruiter, Iris and Dobie, Dougal and Murphy, Tara and Kaplan, David L and Lenc, Emil and Anumarlapudi, Akash and Driessen, Laura N and Gulati, Ashna and Horesh, Assaf and Leung, James K and others},
+  journal={Publications of the Astronomical Society of Australia},
+  pages={1--34},
+  year={2026},
+  publisher={Cambridge University Press}
 }
 ```
 ---
